@@ -1,6 +1,12 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld 
+      msg="Welcome to Your Vue.js App"
+      message = "salut ceci est mon message"
+      />
+
+      <p>{{bonjour}}</p>
+    
   </div>
 </template>
 
@@ -8,10 +14,15 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+// export default {
+//   name: 'HomeView',
+//   components: {
+//     HelloWorld
+//   }
+// }
+// </script>
+
+<script setup>
+const bonjour = 'bonjour'
+
 </script>
