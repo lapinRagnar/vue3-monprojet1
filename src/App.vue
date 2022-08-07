@@ -43,21 +43,21 @@
 </template>
 
 <script>
-  import { loadFull } from "tsparticles";
+  // import { loadFull } from "tsparticles";
 
-  export default {
-    name: "App",
-    components: {
+  // export default {
+  //   name: "App",
+  //   components: {
 
-    },
-    data: () => {
-      return {
-        particlesInit: async (engine) => {
-          await loadFull(engine);
-        },
-      };
-    },
-  };
+  //   },
+  //   data: () => {
+  //     return {
+  //       particlesInit: async (engine) => {
+  //         await loadFull(engine);
+  //       },
+  //     };
+  //   },
+  // };
 
 
 
